@@ -1,0 +1,70 @@
+*{
+    margin: 10p;
+    padding: 10p;
+    background: lightyellow;
+}
+
+.navbar{
+    display: flex;
+}
+
+.rightnav{
+    display: flex;
+    margin-top: 10px;
+    padding-top: 0px;
+}
+
+.rightnav input{
+    background-color: white;
+    width: 100px;
+    height: 14px;
+}
+
+.nav-list{
+    font-size: 20px;
+}
+
+.rightnav button{
+    background-color: white;
+    width: 100px;
+    height: 20px;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    padding: 32px;
+    margin: 4px;
+    gap: 169px;
+    padding-left: 71px;
+    padding-right: 100px;
+}   
+
+.container h1{
+    text-align: center;
+}
+
+.contact{
+    text-align: center;
+}
+
+.container{
+    font-size: 20px;
+}
+
+section:first-of-type{
+    margin-left: 20px;
+}
+
+section:nth-of-type(4){
+    margin-left: 20px;
+}
+
+.photu{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    top: -400px;
+    left: 750px;
+}
